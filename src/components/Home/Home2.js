@@ -4,9 +4,6 @@ import myImg from "../../Assets/Jaspreet1.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillProject,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 

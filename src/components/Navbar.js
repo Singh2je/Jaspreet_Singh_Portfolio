@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
