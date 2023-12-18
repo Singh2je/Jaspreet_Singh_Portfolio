@@ -1,0 +1,21 @@
+/* Gallery.css */
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white; /* Adjust text color as needed */
+    font-size: 18px; /* Adjust text size as needed */
+    font-weight: bold;
+  }
+  
+  .image-container:hover .image-text-overlay {
+    opacity: 1;
+  }
+  
