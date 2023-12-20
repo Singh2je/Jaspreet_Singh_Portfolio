@@ -55,14 +55,14 @@ function Home() {
         </section>
       </Element>
 
-      <Element name="projts">
+      <Element name="projects">
         <section id="projects">
           <Projects />
         </section>
       </Element>
 
-      <Element name="quote">
-        <section id="quote">
+      <Element name="gallery">
+        <section id="gallery">
           <Gallery />
         </section>
       </Element>
