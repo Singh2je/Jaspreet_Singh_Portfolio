@@ -1,0 +1,29 @@
+[build]
+command="npm run build"
+publish="/build"
+base="/"
+
+[[redirects]]
+from ="/*"
+to="/index.html"
+status=200
+
+[[redirects]]
+from ="/about"
+to="/about"
+status=200
+
+[[redirects]]
+from ="/gallery"
+to="/gallery"
+status=200
+
+[[redirects]]
+from ="/resume"
+to="/resume"
+status=200
+
+[[redirects]]
+from ="/contact"
+to="/contact"
+status=200
