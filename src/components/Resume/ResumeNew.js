@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Button } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from '../../Assets/Jaspreet.pdf'
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -21,9 +21,9 @@ function ResumeNew() {
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            as={Link} // Use Link component for internal navigation
-            to="/resume"
             variant="primary"
+            href={pdf}
+            target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -39,9 +39,9 @@ function ResumeNew() {
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            as={Link} // Use Link component for internal navigation
-            to="/resume"
             variant="primary"
+            href={pdf}
+            target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
