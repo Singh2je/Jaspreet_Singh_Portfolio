@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { Link} from "react-scroll";
 import { ImBlog } from "react-icons/im";
 import {
   AiOutlineHome,
@@ -10,11 +9,9 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { FaEnvelope } from 'react-icons/fa';
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
-  const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
@@ -25,119 +22,61 @@ function NavBar() {
     }
   }
 
-  window.addEventListener("scroll", scrollHandler);
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => {
+      window.removeEventListener("scroll", scrollHandler);
+    };
+  }, []);
 
   return (
     <Navbar
-      expanded={expand}
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <strong className="main-name">Jaspreet Singh</strong>
+          <strong className="main-name">Jaspreet Singh</strong>
         </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                style={{cursor:"pointer"}}
-                onClick={() => updateExpanded(false)}
-              >
+              <a href="/home">
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+              </a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                style={{cursor:"pointer"}}
-                onClick={() => updateExpanded(false)}
-              >
+              <a href="/about">
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
+              </a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                style={{cursor:"pointer"}}
-                onClick={() => updateExpanded(false)}
-              >
+              <a href="/projects">
                 <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects
-              </Nav.Link>
+              </a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                style={{cursor:"pointer"}}
-                onClick={()=>{
-                  window.location.href="/resume";
-                }}
-              >
+              <a href="/resume">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+              </a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="gallery"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                style={{cursor:"pointer"}}
-                onClick={() => updateExpanded(false)}
-              >
+              <a href="#gallery">
                 <ImBlog style={{ marginBottom: "2px" }} /> Gallery
-              </Nav.Link>
+              </a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                style={{cursor:"pointer"}}
-                onClick={() => updateExpanded(false)}
-              >
+              <a href="/contact">
                 <FaEnvelope style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
+              </a>
             </Nav.Item>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
