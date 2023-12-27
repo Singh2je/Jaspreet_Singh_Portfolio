@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Jaspreet1.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -17,42 +15,47 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am currently pursuing Bachelors in
+              <b className="purple"> Software Development </b> and
+              <b className="purple"> Masters of Business Administration</b>.
               <br />
-              <br />I am fluent in classics like
+              <br /> As part of my curriculum, I have done{" "}
+              <b className="purple">five software development co-ops </b> along
+              with <b className="purple"> Project Management co-op</b>, because  I
+              want to have the hard skills as well as the soft skills required
+              to succeed in this field.
+              <br />
+              <br /> I want to become a
               <i>
-                <b className="purple"> Java, and Javascript </b>
+                <b className="purple"> perfect balance </b>
+              </i>
+              between business and technical skills which is what I intended t o
+              do when I started college.
+              <br />
+              <br /> &nbsp;
+              <i>
+                <b className="purple"> </b>{" "}
+                <b className="purple"></b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              <br /> <b className="purple"></b>
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> </b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              &nbsp;
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"></b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{height:"300px"}}/>
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{ height: "300px" }}
+              />
             </Tilt>
           </Col>
         </Row>
