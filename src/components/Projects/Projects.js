@@ -24,7 +24,7 @@ function Projects() {
               title="Finance Tracker"
               description="Finance Tracker is a comprehensive financial management application featuring a user-friendly homepage with a prominent savings goal feature, revenue, and expense tracking sections with color-coded entries. It includes financial charts for insights, a detailed calendar for expense categorization, and a settings section for user customization. Innovative features such as receipt image capture, recurrence of transactions, and integration with virtual assistants enhance the overall functionality of the application."
               ghLink="https://github.com/Singh2je/FinanceTracker"
-              demoLink=""
+              demoLink="https://www.youtube.com/watch?v=LqI86Yh-AyY"
             />
           </Col>
 
