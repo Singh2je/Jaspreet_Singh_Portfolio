@@ -471,6 +471,10 @@ button:focus {
   filter: brightness(1.1) contrast(1.15);
 }
 
+.color-change {
+  filter: brightness(1.1) contrast(1.15) hue-rotate(180deg);
+}
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;

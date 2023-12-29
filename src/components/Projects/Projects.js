@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ProjectImage from "../../Assets/Projects/ProjectImage.png";
 import FinanceTracker from "../../Assets/Projects/FinanceTrackerStats.png";
+import CalendarTech from "../../Assets/Projects/CalendarTech.png";
 
 function Projects() {
   return (
@@ -14,7 +15,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          --- Here are some projects I've worked on ---
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
@@ -28,14 +29,14 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card bright-image color-change ">
             <ProjectCard
-              imgPath={ProjectImage}
+              imgPath={CalendarTech}
               isBlog={false}
-              title="Project 2"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
-              ghLink=""
-              demoLink=""
+              title="Calendar Tech"
+              description="The CalendarTech app aims to provide users with a comprehensive platform for managing events, notes, and notifications. The use of Firebase ensures cloud-based storage for seamless data access across devices. The login feature adds a personalized touch to the app, allowing users to associate their data with specific accounts. Overall, CalendarTech offers a user-friendly interface for organizing events, taking notes, and get reminded of things that matter."
+              ghLink="https://github.com/Singh2je/CalendarTech"
+              demoLink="https://www.youtube.com/watch?v=MriAL22fEWU&t=463s"
             />
           </Col>
 
@@ -43,7 +44,7 @@ function Projects() {
             <ProjectCard
               imgPath={ProjectImage}
               isBlog={false}
-              title="Project 3"
+              title="Ditto - Audio Transcription Software"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
               ghLink=""
               demoLink=""              
