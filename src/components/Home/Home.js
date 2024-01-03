@@ -6,6 +6,7 @@ import About from "../About/About";
 import Home2 from "./Home2";
 import Gallery from "../Gallery/gallery";
 import Projects from "../Projects/Projects";
+import Games from "../Games/Games";
 import Contact from "../contact/contact";
 import Type from "./Type";
 import { Element } from "react-scroll";
@@ -64,6 +65,12 @@ function Home() {
       <Element name="gallery">
         <section id="gallery">
           <Gallery />
+        </section>
+      </Element>
+
+      <Element name="games">
+        <section id="games">
+          <Games />
         </section>
       </Element>
 
