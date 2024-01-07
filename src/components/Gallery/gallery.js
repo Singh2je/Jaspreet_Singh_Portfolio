@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <Row style={{margin:"20px"}}>
       <h1 className="project-heading">
-        <strong className="purple">Gallery </strong>
+        <strong className="purple"> Extra Curricular Activities  </strong>
       </h1>
       <Col lg={4} md={12} className='mb-4 mb-lg-0'>
         <div className="image-container">
