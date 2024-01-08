@@ -13,10 +13,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Web <strong className="purple">Apps </strong>
+           <strong className="purple">Web </strong>Applications
         </h1>
         <p style={{ color: "white" }}>
-          --- Here are some projects I've worked on ---
+     
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
@@ -34,9 +34,9 @@ function Projects() {
             <ProjectCard
               imgPath={ProjectImage}
               isBlog={false}
-              title="To Do Application"
+              title="Fleet Wave"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
-              ghLink="https://github.com/Singh2je/ToDoApplication"
+              ghLink=""
               demoLink=""
             />
           </Col>
@@ -45,12 +45,14 @@ function Projects() {
             <ProjectCard
               imgPath={ProjectImage}
               isBlog={false}
-              title="Project 6 "
+              title="To Do Application"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
-              ghLink=""
+              ghLink="https://github.com/Singh2je/ToDoApplication"
               demoLink=""
             />
           </Col>
+
+      
         </Row>
       </Container>
     </Container>

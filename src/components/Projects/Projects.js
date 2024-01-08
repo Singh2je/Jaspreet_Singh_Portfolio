@@ -16,7 +16,7 @@ function Projects() {
           <strong className="purple"> Mobile</strong> Applications
         </h1>
         <p style={{ color: "white" }}>
-          --- Here are some projects I've worked on ---
+      
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
