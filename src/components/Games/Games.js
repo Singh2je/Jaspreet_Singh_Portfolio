@@ -29,29 +29,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card bright-image color-change ">
-            <ProjectCard
-              imgPath={ProjectImage}
-              isBlog={false}
-              title="Phaser 1"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ProjectImage}
-              isBlog={false}
-              title="Phaser 2"
-              description=""
-              ghLink=""
-              demoLink=""              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card bright-image">
             <ProjectCard
               imgPath={Dino}
               isBlog={false}
@@ -62,6 +40,27 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card bright-image color-change ">
+            <ProjectCard
+              imgPath={ProjectImage}
+              isBlog={false}
+              title="Phaser 1"
+              description=""
+              ghLink="https://github.com/Singh2je/71-phaser-game-Singh2je"
+              demoLink="https://singh2je.github.io/71-phaser-game-Singh2je/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ProjectImage}
+              isBlog={false}
+              title="Flappy Bird"
+              description=""
+              ghLink="https://github.com/Singh2je/8-phaser-game-Singh2je?tab=readme-ov-file"
+              demoLink="https://singh2je.github.io/8-phaser-game-Singh2je/"              
+            />
+          </Col>
 
         </Row>
       </Container>
