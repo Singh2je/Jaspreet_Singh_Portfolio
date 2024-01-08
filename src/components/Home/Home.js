@@ -6,6 +6,7 @@ import About from "../About/About";
 import Home2 from "./Home2";
 import Gallery from "../Gallery/gallery";
 import Projects from "../Projects/Projects";
+import WebApps from "../WebApps/WebApps";
 import Games from "../Games/Games";
 import Contact from "../contact/contact";
 import Type from "./Type";
@@ -62,9 +63,9 @@ function Home() {
         </section>
       </Element>
 
-      <Element name="gallery">
-        <section id="gallery">
-          <Gallery />
+      <Element name="webApps">
+        <section id="webApps">
+          <WebApps />
         </section>
       </Element>
 
@@ -73,6 +74,15 @@ function Home() {
           <Games />
         </section>
       </Element>
+
+
+      <Element name="gallery">
+        <section id="gallery">
+          <Gallery />
+        </section>
+      </Element>
+
+     
 
       <Element name="contact">
         <section id="contact">

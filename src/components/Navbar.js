@@ -98,22 +98,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="games"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                style={{cursor:"pointer"}}
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Games
-              </Nav.Link>
-            </Nav.Item>
-
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/resume"
                 style={{cursor:"pointer"}}
                 onClick={()=>{

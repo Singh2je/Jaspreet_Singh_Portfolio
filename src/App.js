@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import WebApps from "./components/WebApps/WebApps";
 import Footer from "./components/Footer";
 import Games from "./components/Games/Games";
 import Resume from "./components/Resume/ResumeNew";
