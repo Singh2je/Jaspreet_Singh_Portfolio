@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./GameCards";
 import Particle from "../Particle";
 import ProjectImage from "../../Assets/Projects/ProjectImage.png";
+import RockPaperScissor from "../../Assets/Projects/RockPaperScissor.png";
+import RockPaperScissor2 from "../../Assets/Projects/RockPaperScissor2.png";
+import Dino from "../../Assets/Projects/Dino.png";
 
 function Projects() {
   return (
@@ -17,12 +20,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
             <ProjectCard
-              imgPath={ProjectImage}
+              imgPath={RockPaperScissor2}
               isBlog={false}
               title="Rock Paper Scissor"
               description=""
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/Singh2je/3-rock-paper-scissors-group-group-24"
+              demoLink="https://singh2je.github.io/3-rock-paper-scissors-group-group-24/"
             />
           </Col>
 
@@ -47,6 +50,18 @@ function Projects() {
               demoLink=""              
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dino}
+              isBlog={false}
+              title="Go Dino!"
+              description=""
+              ghLink="https://github.com/Singh2je/final-project-dino-game?tab=readme-ov-file"
+              demoLink="https://singh2je.github.io/final-project-dino-game/"              
+            />
+          </Col>
+
 
         </Row>
       </Container>
