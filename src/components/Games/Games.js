@@ -6,6 +6,8 @@ import ProjectImage from "../../Assets/Projects/ProjectImage.png";
 import RockPaperScissor from "../../Assets/Projects/RockPaperScissor.png";
 import RockPaperScissor2 from "../../Assets/Projects/RockPaperScissor2.png";
 import Dino from "../../Assets/Projects/Dino.png";
+import FlappyBird from "../../Assets/Projects/FlappyBird.png";
+import Phaser from "../../Assets/Projects/Phaser.png";
 
 function Projects() {
   return (
@@ -15,8 +17,7 @@ function Projects() {
         <h1 className="project-heading">
           Games for <strong className="purple"> Fun </strong>
         </h1>
-        <p style={{ color: "white" }}>
-        </p>
+        <p style={{ color: "white" }}></p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
             <ProjectCard
@@ -31,37 +32,36 @@ function Projects() {
 
           <Col md={4} className="project-card bright-image">
             <ProjectCard
-              imgPath={Dino}
+              imgPath={FlappyBird}
               isBlog={false}
-              title="Go Dino!"
+              title="Flappy Bird"
               description=""
-              ghLink="https://github.com/Singh2je/final-project-dino-game?tab=readme-ov-file"
-              demoLink="https://singh2je.github.io/final-project-dino-game/"              
+              ghLink="https://github.com/Singh2je/8-phaser-game-Singh2je?tab=readme-ov-file"
+              demoLink="https://singh2je.github.io/8-phaser-game-Singh2je/"
             />
           </Col>
 
-          <Col md={4} className="project-card bright-image color-change ">
+          <Col md={4} className="project-card bright-image">
             <ProjectCard
-              imgPath={ProjectImage}
+              imgPath={Phaser}
               isBlog={false}
-              title="Phaser 1"
+              title="Phaser"
               description=""
               ghLink="https://github.com/Singh2je/71-phaser-game-Singh2je"
               demoLink="https://singh2je.github.io/71-phaser-game-Singh2je/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card bright-image">
             <ProjectCard
-              imgPath={ProjectImage}
+              imgPath={Dino}
               isBlog={false}
-              title="Flappy Bird"
+              title="Go Dino!"
               description=""
-              ghLink="https://github.com/Singh2je/8-phaser-game-Singh2je?tab=readme-ov-file"
-              demoLink="https://singh2je.github.io/8-phaser-game-Singh2je/"              
+              ghLink="https://github.com/Singh2je/final-project-dino-game?tab=readme-ov-file"
+              demoLink="https://singh2je.github.io/final-project-dino-game/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
