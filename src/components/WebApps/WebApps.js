@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import WebAppCard from "./WebAppCards";
 import Particle from "../Particle";
-import ProjectImage from "../../Assets/Projects/ProjectImage.png";
+import ToDoApplication from "../../Assets/Projects/ToDoApplication.png";
 import Ditto from "../../Assets/Projects/Ditto.png";
 import FleetWave from "../../Assets/Projects/FleetWave.png";
 
@@ -12,11 +12,9 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-           <strong className="purple">Web </strong>Applications
+          <strong className="purple">Web </strong>Applications
         </h1>
-        <p style={{ color: "white" }}>
-     
-        </p>
+        <p style={{ color: "white" }}></p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
             <WebAppCard
@@ -34,24 +32,23 @@ function Projects() {
               imgPath={FleetWave}
               isBlog={false}
               title="Fleet Wave"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
+              description=" A need for unified platform for efficient load, truck, and driver management, coupled with the need for timely access to information for brokers. In response to this industry gap, we developed FleetWave, a web-based application with an objective to establish a unified environment tailored for small business carriers. This initiative centers on providing streamlined load management and fostering seamless communication among brokers, carriers, and drivers. The core focus lies in mitigating operational complexities, inefficiencies, and ultimately simplifying the logistics cycle for small businesses. "
               ghLink=""
-              demoLink=""
+              demoLink="https://www.youtube.com/watch?v=BoUJZ3AoY0I&t=52s"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card bright-image">
             <WebAppCard
-              imgPath={ProjectImage}
+              imgPath={ToDoApplication}
               isBlog={false}
               title="To Do Application"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
+              description="
+A To-Do List application with note-saving functionality is designed to help users organize tasks and notes in a systematic manner. The application allows users to create, view and delete a list of tasks or notes (In Beginning Stages)"
               ghLink="https://github.com/Singh2je/ToDoApplication"
               demoLink=""
             />
           </Col>
-
-      
         </Row>
       </Container>
     </Container>
