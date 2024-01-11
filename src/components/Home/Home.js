@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import About from "../About/About";
 import Home2 from "./Home2";
 import Gallery from "../Gallery/gallery";
-import Projects from "../Projects/Projects";
+import Projects from "../MobileApps/MobileApps"; //Start of projects
 import WebApps from "../WebApps/WebApps";
 import Games from "../Games/Games";
 import Contact from "../contact/contact";

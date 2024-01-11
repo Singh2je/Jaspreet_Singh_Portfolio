@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import WebAppCard from "./WebAppCards";
 import Particle from "../Particle";
 import ProjectImage from "../../Assets/Projects/ProjectImage.png";
-import FinanceTracker from "../../Assets/Projects/FinanceTrackerStats.png";
-import CalendarTech from "../../Assets/Projects/CalendarTech.png";
 import Ditto from "../../Assets/Projects/Ditto.png";
+import FleetWave from "../../Assets/Projects/FleetWave.png";
 
 function Projects() {
   return (
@@ -20,7 +19,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card bright-image">
-            <ProjectCard
+            <WebAppCard
               imgPath={Ditto}
               isBlog={false}
               title="Ditto - Audio Transcription Software"
@@ -31,8 +30,8 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ProjectImage}
+            <WebAppCard
+              imgPath={FleetWave}
               isBlog={false}
               title="Fleet Wave"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo"
@@ -42,7 +41,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <WebAppCard
               imgPath={ProjectImage}
               isBlog={false}
               title="To Do Application"
