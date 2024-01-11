@@ -34,7 +34,7 @@ function Projects() {
               title="Fleet Wave"
               description=" A need for unified platform for efficient load, truck, and driver management, coupled with the need for timely access to information for brokers. In response to this industry gap, we developed FleetWave, a web-based application with an objective to establish a unified environment tailored for small business carriers. This initiative centers on providing streamlined load management and fostering seamless communication among brokers, carriers, and drivers. The core focus lies in mitigating operational complexities, inefficiencies, and ultimately simplifying the logistics cycle for small businesses. "
               ghLink=""
-              demoLink="https://www.youtube.com/watch?v=BoUJZ3AoY0I&t=52s"
+              demoLink="https://youtu.be/BoUJZ3AoY0I?t=261"
             />
           </Col>
 
