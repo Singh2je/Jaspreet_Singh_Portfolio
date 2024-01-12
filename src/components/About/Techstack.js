@@ -62,8 +62,53 @@ function Techstack() {
         JUnit
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        AWS
+        Netlify
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Heroku
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        HTML
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Flutter
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        AJAX
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Docker
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Tableau
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        TypeScript
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Python
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        .NET 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+Epxress JS      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Angular
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Swagger
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      JQuery
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      Wordpress
+      </Col>
+      
+   
+   
+
    
 
       {/* <Col xs={4} md={2} className="tech-icons">
