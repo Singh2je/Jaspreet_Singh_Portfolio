@@ -20,7 +20,7 @@ function Home2() {
               <b className="purple"> Masters of Business Administration</b>.
               <br />
               <br /> As part of my curriculum, I have done{" "}
-              <b className="purple">five software development co-ops </b> along
+              <b className="purple">7 software development co-ops </b> along
               with <b className="purple"> Project Management co-op</b>, because  I
               want to have the hard skills as well as the soft skills required
               to succeed in this field.
