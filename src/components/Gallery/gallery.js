@@ -2,70 +2,82 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './gallery.css'; // Import a CSS file for styling
+import Bhangra from "../../Assets/Gallery/Bhangra.jpg";
+import Drawing from "../../Assets/Gallery/Drawing.jpg";
+import FestivalOfFaiths from "../../Assets/Gallery/FestivalOfFaiths.jpg";
+import Jeep from "../../Assets/Gallery/Jeep.jpg";
+import Pose from "../../Assets/Gallery/Pose.jpg";
+import Project from "../../Assets/Gallery/Project.jpg";
+import Wedding from "../../Assets/Gallery/Wedding.jpg";
+
 
 const Gallery = () => {
   return (
     <Row style={{margin:"20px"}}>
       <h1 className="project-heading">
-        <strong className="purple"> Extra Curricular Activities  </strong>
+        <strong className="purple"> Gallery  </strong>
+        <br></br>
+        <br></br>
       </h1>
       <Col lg={4} md={12} className='mb-4 mb-lg-0'>
         <div className="image-container">
           <img
-            src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+            src= {Bhangra}
             className='w-100 shadow-1-strong rounded mb-4'
-            alt='Boat on Calm Water'
+            alt='Wedding'
           />
-          <div className="image-text-overlay">Boat on Calm Water</div>
+          <div className="image-text-overlay"></div>
         </div>
 
         <div className="image-container">
           <img
-            src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp'
+            src={FestivalOfFaiths}
             className='w-100 shadow-1-strong rounded mb-4'
             alt='Wintry Mountain Landscape'
           />
-          <div className="image-text-overlay">Wintry Mountain Landscape</div>
+          <div className="image-text-overlay"></div>
         </div>
       </Col>
 
       <Col lg={4} className='mb-4 mb-lg-0'>
         <div className="image-container">
           <img
-            src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp'
+            src= {Jeep}
             className='w-100 shadow-1-strong rounded mb-4'
             alt='Mountains in the Clouds'
           />
-          <div className="image-text-overlay">Mountains in the Clouds</div>
+          <div className="image-text-overlay"></div>
         </div>
 
         <div className="image-container">
           <img
-            src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+            src= {Drawing}
             className='w-100 shadow-1-strong rounded mb-4'
             alt='Boat on Calm Water'
           />
-          <div className="image-text-overlay">Boat on Calm Water</div>
+          <div className="image-text-overlay"></div>
         </div>
+
+    
       </Col>
 
       <Col lg={4} className='mb-4 mb-lg-0'>
         <div className="image-container">
           <img
-            src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp'
+            src={Pose}
             className='w-100 shadow-1-strong rounded mb-4'
             alt='Waves at Sea'
           />
-          <div className="image-text-overlay">Waves at Sea</div>
+          <div className="image-text-overlay"></div>
         </div>
 
         <div className="image-container">
           <img
-            src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp'
+            src={Project}
             className='w-100 shadow-1-strong rounded mb-4'
             alt='Yosemite National Park'
           />
-          <div className="image-text-overlay">Yosemite National Park</div>
+          <div className="image-text-overlay"></div>
         </div>
       </Col>
     </Row>
