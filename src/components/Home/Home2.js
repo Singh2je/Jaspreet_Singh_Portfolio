@@ -21,7 +21,7 @@ function Home2() {
               <br />
               <br /> As part of my curriculum, I have done{" "}
               <b className="purple">7 software development co-ops </b> along
-              with <b className="purple"> Project Management co-op</b>, because  I
+              with <b className="purple"> 2 Project Management co-ops</b>, because  I
               want to have the hard skills as well as the soft skills required
               to succeed in this field.
               <br />

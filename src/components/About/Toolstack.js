@@ -14,16 +14,19 @@ function Toolstack() {
         MacOS
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        VsCode
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        Postman
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        GitLab
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio/>
+        Android Studio
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        JIRA
       </Col>
 {/* 
       <Col xs={4} md={2} className="tech-icons">

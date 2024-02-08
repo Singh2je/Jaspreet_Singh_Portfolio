@@ -92,7 +92,7 @@ function Techstack() {
         .NET 
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-Epxress JS      </Col>
+ExpressJs      </Col>
       <Col xs={4} md={2} className="tech-icons">
         Angular
       </Col>
