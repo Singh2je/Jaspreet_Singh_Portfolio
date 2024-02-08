@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import About from "../About/About";
 import Home2 from "./Home2";
 import Gallery from "../Gallery/gallery";
+import Resume from "../Resume/ResumeNew";
 import Projects from "../MobileApps/MobileApps"; //Start of projects
 import WebApps from "../WebApps/WebApps";
 import Games from "../Games/Games";
@@ -53,7 +54,7 @@ function Home() {
       <Element name="about">
         <section id="about">
           <Home2 />
-          <About />
+          {/* <About /> */}
         </section>
       </Element>
 
@@ -83,6 +84,11 @@ function Home() {
       </Element>
 
      
+      <Element name="resume">
+        <section id="resume">
+          <Resume />
+        </section>
+      </Element>
 
       <Element name="contact">
         <section id="contact">

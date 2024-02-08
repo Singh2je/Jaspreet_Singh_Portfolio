@@ -96,13 +96,15 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+            <Nav.Link
                 as={Link}
-                to="/resume"
+                to="resume"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 style={{cursor:"pointer"}}
-                onClick={()=>{
-                  window.location.href="/resume";
-                }}
+                onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
