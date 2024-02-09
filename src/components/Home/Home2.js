@@ -29,7 +29,7 @@ function Home2() {
               <i>
                 <b className="purple"> perfect balance </b>
               </i>
-              between business and technical skills which is what I intended t o
+              between business and technical skills which is what I intended to
               do when I started college.
               <br />
               <br /> &nbsp;
