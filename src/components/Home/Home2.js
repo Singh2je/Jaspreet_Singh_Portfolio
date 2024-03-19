@@ -19,9 +19,9 @@ function Home2() {
  
 
             <p className="home-about-body">
-            As an accomplished tech professional with a proven track record in project management and software development, I excel in driving efficiency, innovation, and team cohesion.
-              <b className="purple">  </b>
-              <b className="purple"> </b>
+            As an accomplished tech professional with a proven track record in    <b className="purple"> project management </b>and <b className="purple">software development</b>, I excel in driving efficiency, innovation, and team cohesion.
+            
+             
               <br />
               <br />  {" "}
               <b className="purple"> </b> 
