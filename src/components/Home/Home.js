@@ -83,12 +83,12 @@ function Home() {
         </section>
       </Element>
 
-     
+{/*      
       <Element name="resume">
         <section id="resume">
           <Resume />
         </section>
-      </Element>
+      </Element> */}
 
       <Element name="contact">
         <section id="contact">

@@ -12,25 +12,26 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span className="purple"> ABOUT </span> ME
             </h1>
+          
+
+ 
+
             <p className="home-about-body">
-              I am currently pursuing Bachelors in
-              <b className="purple"> Software Development </b> and
-              <b className="purple"> Masters of Business Administration</b>.
+            As an accomplished tech professional with a proven track record in project management and software development, I excel in driving efficiency, innovation, and team cohesion.
+              <b className="purple">  </b>
+              <b className="purple"> </b>
               <br />
-              <br /> As part of my curriculum, I have done{" "}
-              <b className="purple">7 software development co-ops </b> along
-              with <b className="purple"> 2 Project Management co-ops</b>, because  I
-              want to have the hard skills as well as the soft skills required
-              to succeed in this field.
+              <br />  {" "}
+              <b className="purple"> </b> 
+             <b className="purple"> </b>My experience across diverse platforms and methodologies in various industries has consistently delivered significant operational improvements and cost savings
               <br />
-              <br /> I want to become a
+              <br /> I am the
               <i>
                 <b className="purple"> perfect balance </b>
               </i>
-              between business and technical skills which is what I intended to
-              do when I started college.
+              of leadership and technical skills that your company needs.
               <br />
               <br /> &nbsp;
               <i>
@@ -62,9 +63,9 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1></h1>
-            <p>
+            <h3>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </h3>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
